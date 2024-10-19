@@ -41,7 +41,7 @@ function App() {
             <p
                 className="desc"
                 style={{
-                    transform: `translateX(${-position}px)`,
+                    transform: `translateX(${-position}px)`, //대상의 위치를 이동시킨다. (translateX : 가로위치 이동)
                 }}
             >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -50,7 +50,7 @@ function App() {
             <p
                 className="desc2"
                 style={{
-                    transform: `translateX(${position}px)`,
+                    transform: `translateX(${position}px)`, //translateY : 세로 위치 이동
                 }}
             >
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
